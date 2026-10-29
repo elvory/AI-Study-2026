@@ -30,7 +30,7 @@
 | [code/](./code/) | 每日编程练习及代码实现 |
 | [notes/](./notes/) | 每日学习笔记与总结 |
 | [assets/](./assets/) | 学习截图及相关资源 |
-| [Python基础.md](./Python基础.md) | Python 基础知识笔记 |
+| [Python基础.md](./maps/Python%E5%9F%BA%E7%A1%80.md) | Python 基础知识笔记 |
 | [Git基础.md](./Git基础.md) | Git 版本控制学习笔记 |
 | [AI学习知识图谱.md](./AI学习知识图谱.md) | Obsidian 学习知识图谱 |
 

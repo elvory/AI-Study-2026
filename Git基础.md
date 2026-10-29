@@ -1,7 +1,13 @@
+---
+tags:
+  - 主题/Git
+  - 类型/知识笔记
+---
+
 
 相关学习记录：
-[[Day01]]
-[[Day02]]
+[[notes/Day01-搭建环境和了解git|Day01]]
+[[notes/Day02-git基础|Day02]]
 ## Git是什么？
 
 Git 是一个版本控制工具。
@@ -54,3 +60,9 @@ git add = 选择要保存的内容
 git commit = 创建存档
 
 git push = 上传云端
+
+---
+
+## 知识关联
+
+- 主题入口：[[maps/Git与开发环境|Git与开发环境]]

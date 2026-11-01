@@ -35,3 +35,8 @@ tensor_c = torch.tensor([
     [5, 6]
 ])
 print(tensor_b @ tensor_c)
+
+
+# Tensor 与数字运算
+#标量运算
+print(tensor_b + 10)

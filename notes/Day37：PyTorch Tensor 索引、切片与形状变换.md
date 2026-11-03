@@ -1,3 +1,11 @@
+---
+tags:
+  - 主题/深度学习
+  - 类型/每日笔记
+aliases:
+  - "Day37"
+---
+
 
 
 ## 一、学习目标
@@ -224,3 +232,10 @@ Day38：PyTorch 自动求导（Autograd）。
     
 
 为后续神经网络训练和梯度下降打基础。
+
+---
+
+## 知识关联
+
+- 主题入口：[[maps/PyTorch与深度学习|PyTorch与深度学习]]
+- 相关知识：[[notes/Day36：PyTorch 基础与 Tensor|Day36]] · [[notes/Day24 - NumPy索引、切片与广播|Day24]]

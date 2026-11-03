@@ -1,3 +1,11 @@
+---
+tags:
+  - 主题/机器学习
+  - 类型/每日笔记
+aliases:
+  - "Day34"
+---
+
 
 ## 一、今日学习目标
 
@@ -124,3 +132,10 @@ tree_rules = export_text(
     feature_names=list(iris_data.feature_names)
 )
 ```
+
+---
+
+## 知识关联
+
+- 主题入口：[[maps/机器学习|机器学习]]
+- 相关知识：[[notes/Day33 - 决策树与过拟合|Day33]]

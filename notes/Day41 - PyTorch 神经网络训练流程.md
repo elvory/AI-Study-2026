@@ -1,4 +1,12 @@
-# 
+---
+tags:
+  - 主题/深度学习
+  - 类型/每日笔记
+aliases:
+  - "Day41"
+---
+
+# Day41 - PyTorch 神经网络训练流程
 
 ## 一、今日学习目标
 
@@ -138,3 +146,10 @@ avg_loss = total_loss / batch_count
 **清零 → 预测 → 算损失 → 反向传播 → 更新参数**
 
 下一步：Day42，继续深度学习基础。
+
+---
+
+## 知识关联
+
+- 主题入口：[[maps/PyTorch与深度学习|PyTorch与深度学习]]
+- 相关知识：[[notes/Day39：PyTorch 神经网络基础|Day39]] · [[notes/Day40 - PyTorch Dataset 与 DataLoader|Day40]]

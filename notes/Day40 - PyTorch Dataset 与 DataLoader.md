@@ -1,3 +1,13 @@
+---
+tags:
+  - 主题/深度学习
+  - 类型/每日笔记
+aliases:
+  - "Day40"
+---
+
+# Day40 - PyTorch Dataset 与 DataLoader
+
 
 ## 一、TensorDataset
 
@@ -124,3 +134,10 @@ for batch_idx, (x, y) in enumerate(loader):
     
 
 **下一步：Day41 - PyTorch 模型训练流程与训练循环。**
+
+---
+
+## 知识关联
+
+- 主题入口：[[maps/PyTorch与深度学习|PyTorch与深度学习]]
+- 相关知识：[[notes/Day36：PyTorch 基础与 Tensor|Day36]]

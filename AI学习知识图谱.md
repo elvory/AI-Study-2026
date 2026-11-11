@@ -17,7 +17,7 @@ tags:
 | [[maps/NumPy|NumPy]] | Day22–24 | 数组、索引、切片与广播 |
 | [[maps/Pandas|Pandas]] | Day25–26 | 表格数据读取、筛选、清洗与统计 |
 | [[maps/机器学习|机器学习]] | Day27、29–34 | 基础概念、KNN、评估、参数搜索、决策树与过拟合 |
-| [[maps/PyTorch与深度学习|PyTorch与深度学习]] | Day36–38 | Tensor、索引切片、形状变换与自动求导 |
+| [[maps/PyTorch与深度学习|PyTorch与深度学习]] | Day36–41 | Tensor、自动求导、神经网络、数据加载与训练循环 |
 | [[maps/复习与实践|复习与实践]] | Week01–05（含 Day28、Day35） | 周复习、综合练习与实践记录 |
 
 ## 路线与仓库

@@ -1,3 +1,13 @@
+---
+tags:
+  - 主题/深度学习
+  - 类型/每日笔记
+aliases:
+  - "Day39"
+---
+
+# Day39：PyTorch 神经网络基础
+
 
 
 ## 一、nn.Module
@@ -29,3 +39,10 @@ w_new = w_old - lr × grad
 
 ## 六、今日总结
 理解了 nn.Module、Linear、ReLU、MSELoss，以及完整的模型训练流程。通过实际运行验证了梯度计算和 SGD 参数更新。
+
+---
+
+## 知识关联
+
+- 主题入口：[[maps/PyTorch与深度学习|PyTorch与深度学习]]
+- 相关知识：[[notes/Day38：PyTorch 自动求导与梯度计算|Day38]]

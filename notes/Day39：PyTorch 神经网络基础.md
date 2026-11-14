@@ -13,8 +13,8 @@ aliases:
 ## 一、nn.Module
 - PyTorch 神经网络模型的基类。
 - 自定义模型通常继承 nn.Module。
-- __init__() 定义网络层。
-- forward() 定义前向传播。
+- `__init__()` 定义网络层。
+- `forward()` 定义前向传播。
 
 ## 二、常见网络组件
 - nn.Linear(in_features, out_features)：全连接层。

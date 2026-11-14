@@ -1,3 +1,13 @@
+---
+tags:
+  - 主题/复习
+  - 类型/周复习
+aliases:
+  - "Day42"
+  - "Week06"
+---
+
+# Day42 · Week6：PyTorch 基础复盘
 
 
 ## 一、本周学习目标
@@ -45,7 +55,9 @@
 
 链式法则：
 
-dz/dx = dz/dy × dy/dx
+$$
+\frac{dz}{dx}=\frac{dz}{dy}\frac{dy}{dx}
+$$
 
 ## 四、Day39：神经网络基础
 
@@ -98,7 +110,7 @@ dz/dx = dz/dy × dy/dx
     
 - Iteration：一次批次训练迭代。
     
-- Average Loss：一个 Epoch 内各批次损失的平均值。
+- Average Loss：原练习记录各 Batch 平均损失的等权平均；最后一批较小时，它与按样本平均可能不同，详见 [[notes/Day41 - PyTorch 神经网络训练流程|Day41 的统计说明]]。
     
 
 ## 七、Day42：综合复习
@@ -138,3 +150,36 @@ dz/dx = dz/dy × dy/dx
 已经能够理解并编写简单的 PyTorch 神经网络，使用 DataLoader 加载数据，并通过反向传播和优化器更新模型参数。
 
 下一阶段：Transformer、Tokenization、Embedding 与 LLM 基础。
+
+## 九、复盘速查
+
+| 容易混淆的操作 | 准确含义 |
+|---|---|
+| `model.train()` / `model.eval()` | 切换训练或评估模式，影响 Dropout、BatchNorm 等层；不直接关闭梯度记录 |
+| `torch.no_grad()` | 在作用域内关闭通常的反向自动求导记录；不会替代 `eval()` 切换层的行为 |
+| `nn.Linear(8, 16)` | 变换最后一个维度：`(B, T, 8)` → `(B, T, 16)` |
+| `view()` / `reshape()` | 前者要求形状与步长兼容；后者必要时复制，不能依赖它一定共享数据 |
+
+常见推理组合：
+
+```python
+model.eval()
+with torch.no_grad():
+    prediction = model(features)
+```
+
+回到训练前，调用 `model.train()`。这些速查说明不改变上面记录的本周成果与待加强项目。
+
+## 参考资料
+
+- [PyTorch：Module.eval / train](https://docs.pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.eval)
+- [PyTorch：torch.no_grad](https://docs.pytorch.org/docs/stable/generated/torch.no_grad.html)
+- [PyTorch：MSELoss](https://docs.pytorch.org/docs/stable/generated/torch.nn.MSELoss.html)
+
+---
+
+## 知识关联
+
+- 复习入口：[[maps/复习与实践|复习与实践]]
+- 知识主题：[[maps/PyTorch与深度学习|PyTorch 与深度学习]]
+- 本周学习记录：[[notes/Day36：PyTorch 基础与 Tensor|Day36]] · [[notes/Day37：PyTorch Tensor 索引、切片与形状变换|Day37]] · [[notes/Day38：PyTorch 自动求导与梯度计算|Day38]] · [[notes/Day39：PyTorch 神经网络基础|Day39]] · [[notes/Day40 - PyTorch Dataset 与 DataLoader|Day40]] · [[notes/Day41 - PyTorch 神经网络训练流程|Day41]]

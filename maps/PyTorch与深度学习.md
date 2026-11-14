@@ -15,10 +15,13 @@ tags:
 - [[notes/Day36：PyTorch 基础与 Tensor|Day36：PyTorch 基础与 Tensor]]
 - [[notes/Day37：PyTorch Tensor 索引、切片与形状变换|Day37：PyTorch Tensor 索引、切片与形状变换]]
 - [[notes/Day38：PyTorch 自动求导与梯度计算|Day38：PyTorch 自动求导与梯度计算]]
-
 - [[notes/Day39：PyTorch 神经网络基础|Day39：PyTorch 神经网络基础]]
 - [[notes/Day40 - PyTorch Dataset 与 DataLoader|Day40 - PyTorch Dataset 与 DataLoader]]
 - [[notes/Day41 - PyTorch 神经网络训练流程|Day41 - PyTorch 神经网络训练流程]]
+
+## 综合复盘
+
+- [[notes/Day42-Week6：PyTorch 基础复盘|Week06 / Day42 · PyTorch 基础复盘]]
 
 ## 知识脉络
 
@@ -29,3 +32,4 @@ Tensor 创建与基本运算 → 索引、切片与形状变换 → 计算图、
 - [[maps/NumPy|前置基础：数组、形状变换、索引与切片]]
 - [[maps/机器学习|前一阶段：模型训练、评估与参数优化]]
 - [[notes/Day35 - Week5 机器学习综合复盘|Week5 复盘与进入深度学习的计划]]
+- [[maps/Transformer与LLM基础|下一阶段：Transformer 与 LLM 基础]]

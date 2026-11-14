@@ -8,6 +8,8 @@ aliases:
 
 
 
+# Day38：PyTorch 自动求导与梯度计算
+
 ## 一、梯度跟踪
 
 ```
@@ -31,13 +33,13 @@ print(x.grad)
 
 例如：
 
-[  
-y=x^2,\quad x=3  
-]
+$$
+y=x^2,\quad x=3
+$$
 
-[  
-\frac{dy}{dx}=2x=6  
-]
+$$
+\frac{dy}{dx}=2x=6
+$$
 
 ## 三、梯度累积
 
@@ -60,7 +62,7 @@ with torch.no_grad():
     y = x ** 2
 ```
 
-常用于模型推理，避免不必要的梯度计算。
+常用于模型推理，避免不必要的梯度计算。`torch.no_grad()` 控制梯度记录；`model.eval()` 控制 Dropout、BatchNorm 等层的行为，两者作用不同。
 
 ## 五、detach()
 
@@ -93,11 +95,11 @@ print(loss)
 print(x.grad)
 ```
 
-输出：
+关键数值（省略 Tensor 的 `grad_fn` 等显示信息，并非上方 `print()` 的逐字终端输出）：
 
-```
-loss: tensor(45.)
-x.grad: tensor(12.)
+```text
+loss = 45.0
+x.grad = 12.0
 ```
 
 关键理解：detach() 只切断对应的梯度路径，不影响其他仍然连接计算图的路径。
@@ -118,6 +120,10 @@ x.grad: tensor(12.)
 ## 今日总结
 
 掌握了 PyTorch 自动求导的基本机制，理解了计算图、反向传播、梯度累积和梯度分离。
+
+## 参考资料
+
+- [PyTorch：torch.no_grad](https://docs.pytorch.org/docs/stable/generated/torch.no_grad.html)
 
 ---
 

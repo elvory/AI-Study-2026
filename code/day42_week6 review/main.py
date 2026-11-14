@@ -1,3 +1,5 @@
+import torch
+
 # Tensor 自动求导
 x = torch.tensor(3.0, requires_grad=True)
 

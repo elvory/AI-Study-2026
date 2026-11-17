@@ -55,7 +55,7 @@ git commit -m "message"
 
 项目名称：
 
-AI-Internship-2026
+AI-Study-2026
 
 
 第一个项目：

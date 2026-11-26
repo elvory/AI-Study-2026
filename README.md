@@ -2,7 +2,7 @@
 
 **A structured learning journey in Python, algorithms, and AI development.**
 
-这是我的个人计算机与人工智能学习仓库，主要用于记录 Python、数据结构与算法、计算机基础以及 AI 应用开发方面的学习与实践。
+这是我的个人学习记录，收录从 Python、数据结构与算法，到机器学习、深度学习和 LLM 应用开发的笔记、代码练习与阶段复盘。
 
 目标是通过持续学习、代码练习和项目实践，逐步建立扎实的软件开发基础。
 
@@ -16,12 +16,18 @@
 
 ## 📚 Learning Areas
 
-| 方向 | 主要内容 | 当前状态 |
-|---|---|---|
-| Python | 函数、模块、异常处理、面向对象编程 | 持续巩固 |
-| Data Structures & Algorithms | 哈希表、双指针、滑动窗口、栈等 | 学习中 |
-| Development Tools | Git、GitHub、VS Code、Conda | 日常使用 |
-| AI & LLM | 机器学习基础、Embedding、RAG、LLM API | 逐步学习 |
+| 阶段 | 已记录的学习与练习 |
+|---|---|
+| Day03–10 · [Python](./maps/Python基础.md) | 函数、模块、文件读写、异常处理和面向对象编程 |
+| Day11–21 · [数据结构与算法](./maps/数据结构与算法.md) | 复杂度、哈希表、栈与队列、二分查找、链表和树的 DFS / BFS |
+| Day22–26 · 数据处理 | NumPy 数组运算与广播、Pandas 数据清洗与处理 |
+| Day27–35 · [机器学习](./maps/机器学习.md) | scikit-learn KNN、模型评估、交叉验证、GridSearchCV 和决策树 |
+| Day36–42 · [PyTorch 与深度学习](./maps/PyTorch与深度学习.md) | Tensor、自动求导、Dataset / DataLoader 和神经网络训练循环 |
+| Day43–47 · Transformer 与 LLM 基础 | Tokenization、Embedding、向量相似度检索、缩放点积注意力与 Token 采样 |
+
+### 当前进度
+
+截至 2026-11-24，学习记录更新到 [Day47 · LLM 基础笔记](./notes/Day47%20-%20LLM%20Basics%20大语言模型基础.md)，包含用 PyTorch 模拟温度调节、Top-k 和 Top-p 采样的[代码练习](./code/day47_LLM%20basics/main.py)。后续学习方向包括 RAG 和 Agent 应用开发。
 
 ## 📂 Repository Structure
 
@@ -47,9 +53,7 @@
 
 ### [AI Programming Tutor](https://github.com/elvory/ai-programming-tutor)
 
-一个正在开发中的 Python 编程学习辅助工具，使用 Streamlit 构建交互界面。
-
-目前主要探索代码诊断、渐进式提示和 LLM 辅助编程教学。
+用 React、TypeScript 和 FastAPI 实现的编程练习工作台，接入 DeepSeek 进行代码诊断并提供三级渐进式提示。这是我将 LLM 接入实际应用的项目。
 
 ## 📌 Notes
 
